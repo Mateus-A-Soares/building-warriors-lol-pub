@@ -1,6 +1,6 @@
 package br.com.iupp.buildingwarriors.entrypoint.controller
 
-import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.championRequestToChampion
+import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.Companion.championRequestToChampion
 import br.com.iupp.buildingwarriors.core.ports.ChampionServicePort
 import br.com.iupp.buildingwarriors.entrypoint.controller.request.ChampionRequest
 import br.com.iupp.buildingwarriors.entrypoint.controller.response.ChampionResponse

@@ -1,4 +1,4 @@
-package br.com.iupp.buildingwarriors.infrastructure.model
+package br.com.iupp.buildingwarriors.infrastructure.broker.model
 
 data class ChampionEvent(
     var id: String? = null,

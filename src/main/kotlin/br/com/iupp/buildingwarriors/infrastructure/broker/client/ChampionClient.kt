@@ -1,6 +1,6 @@
-package br.com.iupp.buildingwarriors.infrastructure.client
+package br.com.iupp.buildingwarriors.infrastructure.broker.client
 
-import br.com.iupp.buildingwarriors.infrastructure.model.ChampionEventInformation
+import br.com.iupp.buildingwarriors.infrastructure.broker.model.ChampionEventInformation
 import io.micronaut.nats.annotation.NatsClient
 import io.micronaut.nats.annotation.Subject
 import javax.inject.Singleton

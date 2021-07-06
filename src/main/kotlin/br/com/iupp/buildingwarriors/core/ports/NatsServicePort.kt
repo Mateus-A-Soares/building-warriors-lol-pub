@@ -1,6 +1,6 @@
 package br.com.iupp.buildingwarriors.core.ports
 
-import br.com.iupp.buildingwarriors.infrastructure.model.ChampionEvent
+import br.com.iupp.buildingwarriors.infrastructure.broker.model.ChampionEvent
 
 interface NatsServicePort {
     fun createChampionEvent(championToChampionEvent: ChampionEvent)

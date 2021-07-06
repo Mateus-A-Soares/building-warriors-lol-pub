@@ -2,10 +2,11 @@ package br.com.iupp.buildingwarriors.infrastructure.service
 
 import br.com.iupp.buildingwarriors.core.model.ChampionDifficulty
 import br.com.iupp.buildingwarriors.core.model.ChampionRole
-import br.com.iupp.buildingwarriors.infrastructure.client.ChampionClient
-import br.com.iupp.buildingwarriors.infrastructure.model.ChampionEvent
-import br.com.iupp.buildingwarriors.infrastructure.model.ChampionEventInformation
-import br.com.iupp.buildingwarriors.infrastructure.model.ChampionOperations.*
+import br.com.iupp.buildingwarriors.infrastructure.broker.client.ChampionClient
+import br.com.iupp.buildingwarriors.infrastructure.broker.model.ChampionEvent
+import br.com.iupp.buildingwarriors.infrastructure.broker.model.ChampionEventInformation
+import br.com.iupp.buildingwarriors.infrastructure.broker.model.ChampionOperations.*
+import br.com.iupp.buildingwarriors.infrastructure.broker.service.NatsService
 import io.kotest.core.spec.style.AnnotationSpec
 import io.micronaut.test.extensions.kotest.annotation.MicronautTest
 import io.mockk.mockk
