@@ -1,7 +1,7 @@
 package br.com.iupp.buildingwarriors.core.service
 
-import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.championToChampionEvent
-import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.championToChampionResponse
+import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.Companion.championToChampionEvent
+import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.Companion.championToChampionResponse
 import br.com.iupp.buildingwarriors.core.model.Champion
 import br.com.iupp.buildingwarriors.core.model.ChampionDifficulty
 import br.com.iupp.buildingwarriors.core.model.ChampionRole

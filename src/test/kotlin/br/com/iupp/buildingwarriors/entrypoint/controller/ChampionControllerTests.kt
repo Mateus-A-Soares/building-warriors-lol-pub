@@ -1,7 +1,7 @@
 package br.com.iupp.buildingwarriors.entrypoint.controller
 
-import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.championRequestToChampion
-import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.championToChampionResponse
+import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.Companion.championRequestToChampion
+import br.com.iupp.buildingwarriors.core.mapper.ChampionMapper.Companion.championToChampionResponse
 import br.com.iupp.buildingwarriors.core.model.ChampionDifficulty
 import br.com.iupp.buildingwarriors.core.model.ChampionRole
 import br.com.iupp.buildingwarriors.core.ports.ChampionServicePort
